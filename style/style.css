@@ -1,5 +1,27 @@
 .college{
 
-    background-image: url("asssets/mridul.jpg");
-    background-color: red;
+    background: url('../assets/dark.jpg');
+    background-color: rgb(107, 102, 102);
+}
+
+.solid{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 29px orange, 0 0 8px red;
+    box-shadow: 10px 10px 5px darkslategray;
+}
+
+.card-solid{
+    box-shadow: 10px 10px 5px black
+}
+
+.solid-header{
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    font-style: oblique;
+}
+
+.solid-header-3{
+    transform:translateX(20%);
+    text-shadow: 2px 2px 5px red;
+    font-style: oblique;
 }
